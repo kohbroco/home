@@ -1,0 +1,104 @@
+/*body{*/
+    /*color:blue;*/
+/*}*/
+/*Hover offsets should have a color difference of 11E2D0 */
+
+/*.highlightable:hover{*/
+    /*background-color: rgba(0, 50, 50, 0.3);*/
+    /*background-blend-mode: overlay;*/
+/*}*/
+.header{
+    color:whitesmoke;
+    padding: 10px 10px;
+    background-color: #314778;
+    max-width: 100%;
+}
+
+.sidebar{
+    color:whitesmoke;
+    padding: 10px 10px;
+    background-color: #314778;
+    max-width: 20%;
+    max-height: 100%;
+    vertical-align: top ;
+}
+
+.sidebar-btn{
+    color:whitesmoke;
+    background-color: #008B8B;
+    text-align: center;
+    margin: 10px 0px ;
+
+}
+
+.sidebar-btn:hover{
+    color:whitesmoke;
+    background-color: #11E2D0;
+}
+
+.table{
+    color:whitesmoke;
+    background-color: #9F9386;
+    max-width: 100%;
+    max-height: 100%;
+    height: inherit;
+}
+.btn-animated{
+    border: none;
+    cursor: hand;
+    padding: 10px 10px;
+    transition-duration: 0.3s;
+    transition-delay: 0s;
+    font-family: Calibri;
+    text-decoration: none;
+}
+
+.btn-animated:hover{
+    padding: 10px 10px;
+    border: none;
+}
+
+.btn-directory{
+    color:whitesmoke;
+    background-color: #314778;
+    border-radius: 20px;
+}
+
+.btn-directory:hover{
+    color:whitesmoke;
+    background-color: #429EBD;
+}
+
+.btn-file-download{
+    color:whitesmoke;
+    background-color:#008B8B; /*dark cyan*/
+    border-radius: 10px;
+}
+.btn-file-download:hover{
+    color:whitesmoke;
+    background-color:#11E2D0;
+}
+
+.btn-file-stream{
+    color:whitesmoke;
+    background-color:steelblue;
+}
+
+.btn-file-stream:hover{
+    color:whitesmoke;
+    background-color:indianred;
+}
+
+.list-directory{
+    line-height: 40px;
+}
+
+.not-root{
+    display:none;
+}
+
+ul{
+    margin: 0px 0px;
+    padding: 0px 10px;
+    list-style-type: none;
+}
